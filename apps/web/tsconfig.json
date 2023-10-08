@@ -1,0 +1,20 @@
+{
+   "extends": "tsconfig/react.json",
+   "compilerOptions": {
+      "baseUrl": ".",
+      "outDir": "dist",
+      "composite": false,
+      "paths": {
+         "~/*": ["./src/*"]
+       },
+   },
+   "include": ["src", "vite.config.ts"],
+   "references": [
+      {
+         "path": "../server"
+      },
+      {
+         "path": "../../packages/ui/tsconfig.json"
+      }
+   ]
+}

@@ -1,0 +1,10 @@
+{
+   "ext": "ts,json",
+   "execMap": {
+      "ts": "node --inspect -r ts-node/register -r tsconfig-paths/register"
+   },
+   "watch": [
+      "./src",
+      "../../packages/config/dist/index.js"
+   ]
+}
