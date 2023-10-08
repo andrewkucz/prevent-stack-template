@@ -1,19 +1,15 @@
+# PREVENT stack monorepo
 
-
-# Monorepo Stack
-
-- Typescript
+- Prisma | PNPM
 - React
-- Vite
-- TRPC
-- Prisma
-- shadcn/ui + tailwind
-- Node (ts-node)
 - Express
-- pnpm
-
+- Vite
+- Node
+- Typescript | TRPC | Tailwind (shadcn/ui)
 
 Heavily adapted version of [react-vite-trpc](https://github.com/kuubson/react-vite-trpc) template.
+
+Changes:
 
 - All testing ripped out
 - styled-components swapped out for tailwind
